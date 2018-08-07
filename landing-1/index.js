@@ -6,3 +6,4 @@ import "./scss/layout/_about.scss";
 import "./scss/layout/_projects.scss";
 import "./scss/layout/_plans.scss";
 import "./scss/layout/_team.scss";
+import "./scss/layout/_contact.scss";
