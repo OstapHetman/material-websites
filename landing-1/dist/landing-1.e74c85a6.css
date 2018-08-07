@@ -274,3 +274,18 @@ header {
     #contact form input:not(.browser-default):focus:not([readonly]) + label,
     #contact form textarea:not(.browser-default):focus:not([readonly]) + label {
       color: #0d47a1; }
+footer ul {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0; }
+  footer ul li {
+    padding: 0 1.2rem; }
+    footer ul li a i {
+      color: #fff;
+      font-size: 23px; }
+
+footer p {
+  margin: 0;
+  color: #fff;
+  padding: 1rem 0; }

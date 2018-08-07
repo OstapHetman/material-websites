@@ -204,7 +204,12 @@ module.hot.accept(reloadCSS);
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./..\\..\\img\\header-bg.jpg":[["header-bg.d5c1aa2d.jpg","img\\header-bg.jpg"],"img\\header-bg.jpg"],"_css_loader":"..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"index.js":[function(require,module,exports) {
+},{"./..\\..\\img\\header-bg.jpg":[["header-bg.d5c1aa2d.jpg","img\\header-bg.jpg"],"img\\header-bg.jpg"],"_css_loader":"..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"scss\\layout\\_footer.scss":[function(require,module,exports) {
+
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
 require("./scss/layout/_navigation.scss");
@@ -222,7 +227,9 @@ require("./scss/layout/_plans.scss");
 require("./scss/layout/_team.scss");
 
 require("./scss/layout/_contact.scss");
-},{"./scss/layout/_navigation.scss":"scss\\layout\\_navigation.scss","./scss/layout/_header.scss":"scss\\layout\\_header.scss","./scss/layout/_features.scss":"scss\\layout\\_features.scss","./scss/layout/_about.scss":"scss\\layout\\_about.scss","./scss/layout/_projects.scss":"scss\\layout\\_projects.scss","./scss/layout/_plans.scss":"scss\\layout\\_plans.scss","./scss/layout/_team.scss":"scss\\layout\\_team.scss","./scss/layout/_contact.scss":"scss\\layout\\_contact.scss"}],"..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
+
+require("./scss/layout/_footer.scss");
+},{"./scss/layout/_navigation.scss":"scss\\layout\\_navigation.scss","./scss/layout/_header.scss":"scss\\layout\\_header.scss","./scss/layout/_features.scss":"scss\\layout\\_features.scss","./scss/layout/_about.scss":"scss\\layout\\_about.scss","./scss/layout/_projects.scss":"scss\\layout\\_projects.scss","./scss/layout/_plans.scss":"scss\\layout\\_plans.scss","./scss/layout/_team.scss":"scss\\layout\\_team.scss","./scss/layout/_contact.scss":"scss\\layout\\_contact.scss","./scss/layout/_footer.scss":"scss\\layout\\_footer.scss"}],"..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 

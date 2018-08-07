@@ -1,0 +1,22 @@
+footer {
+  ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    li {
+      padding: 0 1.2rem;
+      a {
+        i {
+          color: #fff;
+          font-size: 23px;
+        }
+      }
+    }
+  }
+  p {
+    margin: 0;
+    color: #fff;
+    padding: 1rem 0;
+  }
+}
