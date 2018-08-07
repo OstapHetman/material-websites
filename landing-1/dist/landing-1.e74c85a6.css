@@ -38,3 +38,12 @@ header {
         border: 2px #fff solid;
         color: #fff;
         margin-left: 15px; }
+#features .row {
+  display: flex; }
+
+#features .feature {
+  text-align: center;
+  color: #fff;
+  padding: 50px; }
+  #features .feature i {
+    font-size: 50px; }
