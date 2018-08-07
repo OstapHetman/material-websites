@@ -192,3 +192,40 @@ header {
     font-size: 20px;
     font-weight: 100;
     opacity: 0.6; }
+#team {
+  padding: 5rem 0; }
+  #team .row {
+    margin-bottom: 0; }
+  #team .col {
+    display: flex;
+    margin-top: 90px; }
+    #team .col .portrait img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 7px; }
+    #team .col .text {
+      padding-left: 20px;
+      max-width: 65%; }
+      #team .col .text h4 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-top: 0; }
+      #team .col .text small {
+        color: #607d8b;
+        font-size: 16px;
+        font-weight: 500; }
+      #team .col .text p {
+        font-size: 16px;
+        opacity: 0.8;
+        margin-bottom: 0;
+        text-align: left; }
+  #team h3 {
+    font-weight: 500;
+    margin-top: 0; }
+  #team h3,
+  #team p {
+    text-align: center; }
+  #team p {
+    color: #607d8b;
+    font-size: 20px;
+    font-weight: 100; }
