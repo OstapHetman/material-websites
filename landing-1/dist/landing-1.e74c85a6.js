@@ -184,6 +184,11 @@ module.hot.accept(reloadCSS);
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
+},{"_css_loader":"..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"scss\\layout\\_projects.scss":[function(require,module,exports) {
+
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
 },{"_css_loader":"..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
@@ -194,7 +199,9 @@ require("./scss/layout/_header.scss");
 require("./scss/layout/_features.scss");
 
 require("./scss/layout/_about.scss");
-},{"./scss/layout/_navigation.scss":"scss\\layout\\_navigation.scss","./scss/layout/_header.scss":"scss\\layout\\_header.scss","./scss/layout/_features.scss":"scss\\layout\\_features.scss","./scss/layout/_about.scss":"scss\\layout\\_about.scss"}],"..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
+
+require("./scss/layout/_projects.scss");
+},{"./scss/layout/_navigation.scss":"scss\\layout\\_navigation.scss","./scss/layout/_header.scss":"scss\\layout\\_header.scss","./scss/layout/_features.scss":"scss\\layout\\_features.scss","./scss/layout/_about.scss":"scss\\layout\\_about.scss","./scss/layout/_projects.scss":"scss\\layout\\_projects.scss"}],"..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 

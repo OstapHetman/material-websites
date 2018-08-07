@@ -1,0 +1,66 @@
+#projects {
+  $text-color: #607d8b;
+
+  padding: 3rem 0;
+  .row {
+    margin-bottom: 0;
+  }
+  h3 {
+    font-weight: 500;
+    margin-top: 0;
+  }
+  h3,
+  p {
+    text-align: center;
+  }
+  p {
+    margin-bottom: 70px;
+    color: $text-color;
+    font-size: 20px;
+    font-weight: 100;
+  }
+  .project {
+    &__item-left {
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    &__item-right {
+      display: flex;
+      flex-direction: column;
+      i {
+        font-size: 32px;
+      }
+      h5 {
+        font-weight: 500;
+        margin-top: 0;
+      }
+      p {
+        font-size: 16px;
+        opacity: 0.5;
+        margin-bottom: 1rem;
+      }
+      h5,
+      p {
+        text-align: left;
+      }
+    }
+    &__list-item {
+      display: flex;
+    }
+    &__feature {
+      margin-left: 25px;
+    }
+    &__icon {
+      color: #00bcd4;
+    }
+  }
+
+  .valign-wrapper {
+    padding: 3rem 0;
+    &:nth-child(1) {
+      border-top: 1px solid rgba(0, 0, 0, 0.1);
+    }
+  }
+}
