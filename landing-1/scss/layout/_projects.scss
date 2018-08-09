@@ -34,6 +34,16 @@
     }
     &__list-item {
       display: flex;
+      &:nth-child(2) {
+        .project__icon {
+          color: #f44336;
+        }
+      }
+      &:nth-child(3) {
+        .project__icon {
+          color: #673ab7;
+        }
+      }
     }
     &__feature {
       margin-left: 25px;

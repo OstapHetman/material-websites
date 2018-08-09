@@ -90,6 +90,7 @@
   @media screen and (max-width: 992px) {
     .plan {
       margin-top: 30px;
+      z-index: 1;
       &-bg {
         padding: 1rem 0;
         p {

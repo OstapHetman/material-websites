@@ -48,8 +48,11 @@ header {
     position: fixed;
     top: 15px;
     left: 15px;
-    color: #fff;
-    font-size: 32px;
+    color: #f44336;
+    z-index: 5;
+    i {
+      font-size: 36px;
+    }
   }
 }
 
