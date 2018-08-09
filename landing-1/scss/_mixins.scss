@@ -1,0 +1,23 @@
+.sectionTitle {
+  font-weight: 500;
+  margin-top: 0;
+  text-align: center;
+  position: relative;
+  @media screen and (max-width: 600px) {
+    font-size: 24px;
+  }
+}
+
+.sectionDescription {
+  $text-color: #607d8b;
+  margin-bottom: 70px;
+  color: $text-color;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  position: relative;
+  @media screen and (max-width: 600px) {
+    font-size: 16px;
+    margin-bottom: 35px;
+  }
+}

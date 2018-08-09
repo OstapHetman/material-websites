@@ -164,7 +164,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\bundle-url.js"}],"scss\\layout\\_navigation.scss":[function(require,module,exports) {
+},{"./bundle-url":"..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\bundle-url.js"}],"scss\\_mixins.scss":[function(require,module,exports) {
+
+var reloadCSS = require('_css_loader');
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"scss\\layout\\_navigation.scss":[function(require,module,exports) {
 
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
@@ -212,6 +217,8 @@ module.hot.accept(reloadCSS);
 },{"_css_loader":"..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"index.js":[function(require,module,exports) {
 "use strict";
 
+require("./scss/_mixins.scss");
+
 require("./scss/layout/_navigation.scss");
 
 require("./scss/layout/_header.scss");
@@ -231,7 +238,10 @@ require("./scss/layout/_contact.scss");
 require("./scss/layout/_footer.scss");
 
 // Variables
-var nav = document.querySelector(".navbar-fixed nav"); // Import SCSS files
+// Import SCSS files
+// Mixins
+var nav = document.querySelector(".navbar-fixed nav");
+// Layout
 
 var brand = document.querySelector(".brand-logo");
 
@@ -251,7 +261,7 @@ window.addEventListener("scroll", function () {
 $(document).ready(function () {
   $(".sidenav").sidenav();
 });
-},{"./scss/layout/_navigation.scss":"scss\\layout\\_navigation.scss","./scss/layout/_header.scss":"scss\\layout\\_header.scss","./scss/layout/_features.scss":"scss\\layout\\_features.scss","./scss/layout/_about.scss":"scss\\layout\\_about.scss","./scss/layout/_projects.scss":"scss\\layout\\_projects.scss","./scss/layout/_plans.scss":"scss\\layout\\_plans.scss","./scss/layout/_team.scss":"scss\\layout\\_team.scss","./scss/layout/_contact.scss":"scss\\layout\\_contact.scss","./scss/layout/_footer.scss":"scss\\layout\\_footer.scss"}],"..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
+},{"./scss/_mixins.scss":"scss\\_mixins.scss","./scss/layout/_navigation.scss":"scss\\layout\\_navigation.scss","./scss/layout/_header.scss":"scss\\layout\\_header.scss","./scss/layout/_features.scss":"scss\\layout\\_features.scss","./scss/layout/_about.scss":"scss\\layout\\_about.scss","./scss/layout/_projects.scss":"scss\\layout\\_projects.scss","./scss/layout/_plans.scss":"scss\\layout\\_plans.scss","./scss/layout/_team.scss":"scss\\layout\\_team.scss","./scss/layout/_contact.scss":"scss\\layout\\_contact.scss","./scss/layout/_footer.scss":"scss\\layout\\_footer.scss"}],"..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -280,7 +290,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49711' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '63549' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 

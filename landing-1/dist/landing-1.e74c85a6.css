@@ -1,3 +1,23 @@
+.sectionTitle {
+  font-weight: 500;
+  margin-top: 0;
+  text-align: center;
+  position: relative; }
+  @media screen and (max-width: 600px) {
+    .sectionTitle {
+      font-size: 24px; } }
+
+.sectionDescription {
+  margin-bottom: 70px;
+  color: #607d8b;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  position: relative; }
+  @media screen and (max-width: 600px) {
+    .sectionDescription {
+      font-size: 16px;
+      margin-bottom: 35px; } }
 .navbar-fixed {
   position: absolute; }
 
@@ -27,9 +47,9 @@ header {
     color: #fff !important;
     position: relative;
     margin-top: 25%; }
-    header .text h4 {
+    header .text h2 {
       font-weight: bold; }
-    header .text h4,
+    header .text h2,
     header .text p {
       display: block;
       color: #fff; }
@@ -47,8 +67,31 @@ header {
     left: 15px;
     color: #fff;
     font-size: 32px; }
+
+@media screen and (max-width: 599px) {
+  header {
+    height: unset; }
+    header .overlay {
+      height: 100%; }
+    header .container {
+      padding: 2rem 0; }
+    header .text h2 {
+      font-size: 28px;
+      text-align: center; }
+    header .text p {
+      text-align: center; }
+    header .buttons {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center; }
+      header .buttons a {
+        margin-top: 20px; }
+      header .buttons a.transparent {
+        margin-left: 0; } }
 #features .row {
   display: flex;
+  flex-wrap: wrap;
   margin-bottom: 0; }
 
 #features .feature {
@@ -57,24 +100,22 @@ header {
   padding: 50px; }
   #features .feature i {
     font-size: 50px; }
+
+@media screen and (max-width: 599px) {
+  #features .feature {
+    padding: 10px; }
+    #features .feature h5 {
+      font-size: 20px; }
+    #features .feature i {
+      font-size: 36px; } }
 #about {
   background-color: #f5f5f5;
   padding: 5rem 0; }
   #about .row {
     margin-bottom: 0; }
-  #about h3 {
-    font-weight: 500;
-    margin-top: 0; }
-  #about h3,
-  #about p {
-    text-align: center; }
-  #about p {
-    margin-bottom: 70px;
-    color: #607d8b;
-    font-size: 20px;
-    font-weight: 100; }
   #about .about-item {
-    text-align: center; }
+    text-align: center;
+    margin-top: 25px; }
     #about .about-item h5 {
       font-weight: 500; }
     #about .about-item i {
@@ -87,21 +128,15 @@ header {
       color: #00bcd4; }
     #about .about-item:nth-of-type(3) i {
       color: #f44336; }
+  @media screen and (max-width: 600px) {
+    #about .about-item i {
+      font-size: 36px; }
+    #about .about-item h5 {
+      font-size: 20px; } }
 #projects {
   padding: 3rem 0; }
   #projects .row {
     margin-bottom: 0; }
-  #projects h3 {
-    font-weight: 500;
-    margin-top: 0; }
-  #projects h3,
-  #projects p {
-    text-align: center; }
-  #projects p {
-    margin-bottom: 70px;
-    color: #607d8b;
-    font-size: 20px;
-    font-weight: 100; }
   #projects .project__item-left img {
     max-width: 100%;
     height: auto; }
@@ -189,18 +224,9 @@ header {
     border-radius: 7px; }
   #plans .row {
     margin-bottom: 0; }
-  #plans h3 {
-    font-weight: 500;
-    margin-top: 0; }
   #plans h3,
   #plans p {
-    text-align: center;
     color: #fff; }
-  #plans p {
-    margin-bottom: 70px;
-    font-size: 20px;
-    font-weight: 100;
-    opacity: 0.6; }
 #team {
   padding: 5rem 0; }
   #team .row {
@@ -228,16 +254,6 @@ header {
         opacity: 0.8;
         margin-bottom: 0;
         text-align: left; }
-  #team h3 {
-    font-weight: 500;
-    margin-top: 0; }
-  #team h3,
-  #team p {
-    text-align: center; }
-  #team p {
-    color: #607d8b;
-    font-size: 20px;
-    font-weight: 100; }
 #contact {
   background: url("header-bg.d5c1aa2d.jpg");
   background-size: cover;
@@ -255,9 +271,6 @@ header {
     border-radius: 7px; }
   #contact .row {
     margin-bottom: 0; }
-  #contact h3 {
-    font-weight: 500;
-    margin-top: 0; }
   #contact h3,
   #contact p {
     text-align: center;

@@ -1,6 +1,7 @@
 #features {
   .row {
     display: flex;
+    flex-wrap: wrap;
     margin-bottom: 0;
   }
   .feature {
@@ -9,6 +10,19 @@
     padding: 50px;
     i {
       font-size: 50px;
+    }
+  }
+}
+@media screen and (max-width: 599px) {
+  #features {
+    .feature {
+      padding: 10px;
+      h5 {
+        font-size: 20px;
+      }
+      i {
+        font-size: 36px;
+      }
     }
   }
 }

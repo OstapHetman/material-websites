@@ -24,10 +24,10 @@ header {
     color: #fff !important;
     position: relative;
     margin-top: 25%;
-    h4 {
+    h2 {
       font-weight: bold;
     }
-    h4,
+    h2,
     p {
       display: block;
       color: #fff;
@@ -50,5 +50,38 @@ header {
     left: 15px;
     color: #fff;
     font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  header {
+    height: unset;
+    .overlay {
+      height: 100%;
+    }
+    .container {
+      padding: 2rem 0;
+    }
+    .text {
+      h2 {
+        font-size: 28px;
+        text-align: center;
+      }
+      p {
+        text-align: center;
+      }
+    }
+    .buttons {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      a {
+        margin-top: 20px;
+      }
+      a.transparent {
+        margin-left: 0;
+      }
+    }
   }
 }

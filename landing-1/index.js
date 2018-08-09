@@ -1,4 +1,7 @@
 // Import SCSS files
+// Mixins
+import "./scss/_mixins.scss";
+// Layout
 import "./scss/layout/_navigation.scss";
 import "./scss/layout/_header.scss";
 import "./scss/layout/_features.scss";
