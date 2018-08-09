@@ -165,6 +165,20 @@ header {
     padding: 3rem 0; }
     #projects .valign-wrapper:nth-child(1) {
       border-top: 1px solid rgba(0, 0, 0, 0.1); }
+  @media screen and (max-width: 992px) {
+    #projects .valign-wrapper {
+      flex-direction: column; }
+    #projects .project__item-right {
+      margin-top: 40px; }
+      #projects .project__item-right:nth-of-type(1) {
+        order: 2; } }
+  @media screen and (max-width: 600px) {
+    #projects .project__item-right i {
+      font-size: 26px; }
+    #projects .project__item-right h5 {
+      font-size: 20px; }
+    #projects .project__item-right p {
+      font-size: 14px; } }
 #plans {
   padding: 5rem 0; }
   #plans .plan-bg {
@@ -227,6 +241,20 @@ header {
   #plans h3,
   #plans p {
     color: #fff; }
+  @media screen and (max-width: 992px) {
+    #plans .plan {
+      margin-top: 30px; }
+      #plans .plan-bg {
+        padding: 1rem 0; }
+        #plans .plan-bg p {
+          font-size: 16px; }
+          #plans .plan-bg p .price {
+            font-size: 36px; }
+        #plans .plan-bg ul {
+          padding: 1rem 0; }
+          #plans .plan-bg ul li {
+            margin-top: 10px;
+            font-size: 16px; } }
 #team {
   padding: 5rem 0; }
   #team .row {
@@ -273,13 +301,7 @@ header {
     margin-bottom: 0; }
   #contact h3,
   #contact p {
-    text-align: center;
-    color: #fff;
-    position: relative; }
-  #contact p {
-    margin-bottom: 70px;
-    font-size: 20px;
-    font-weight: 100; }
+    color: #fff; }
   #contact form {
     position: relative;
     background-color: #fff;
@@ -296,6 +318,14 @@ header {
     #contact form input:not(.browser-default):focus:not([readonly]) + label,
     #contact form textarea:not(.browser-default):focus:not([readonly]) + label {
       color: #0d47a1; }
+  @media screen and (max-width: 600px) {
+    #contact form {
+      padding: 1rem 1rem; }
+      #contact form label {
+        font-size: 12px; }
+      #contact form button[type="submit"] {
+        display: block;
+        margin: auto; } }
 footer ul {
   margin: 0;
   display: flex;
@@ -311,3 +341,9 @@ footer p {
   margin: 0;
   color: #fff;
   padding: 1rem 0; }
+
+@media screen and (max-width: 600px) {
+  footer ul {
+    padding: 1.5rem; }
+  footer ul li a i {
+    font-size: 16px; } }

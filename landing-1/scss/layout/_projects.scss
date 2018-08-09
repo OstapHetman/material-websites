@@ -49,4 +49,28 @@
       border-top: 1px solid rgba(0, 0, 0, 0.1);
     }
   }
+  @media screen and (max-width: 992px) {
+    .valign-wrapper {
+      flex-direction: column;
+    }
+    .project__item-right {
+      margin-top: 40px;
+      &:nth-of-type(1) {
+        order: 2;
+      }
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .project__item-right {
+      i {
+        font-size: 26px;
+      }
+      h5 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
 }

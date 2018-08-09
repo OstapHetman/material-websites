@@ -87,4 +87,25 @@
   p {
     color: #fff;
   }
+  @media screen and (max-width: 992px) {
+    .plan {
+      margin-top: 30px;
+      &-bg {
+        padding: 1rem 0;
+        p {
+          font-size: 16px;
+          .price {
+            font-size: 36px;
+          }
+        }
+        ul {
+          padding: 1rem 0;
+          li {
+            margin-top: 10px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
 }
