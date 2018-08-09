@@ -229,6 +229,24 @@ require("./scss/layout/_team.scss");
 require("./scss/layout/_contact.scss");
 
 require("./scss/layout/_footer.scss");
+
+// Variables
+var nav = document.querySelector(".navbar-fixed nav"); // Import SCSS files
+
+var brand = document.querySelector(".brand-logo");
+
+// Events Listener
+window.addEventListener("scroll", function () {
+  var scrolled = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (scrolled > 200) {
+    nav.classList.add("blue", "darken-4");
+    brand.style.fontSize = "1.4rem";
+  } else {
+    nav.classList.remove("blue", "darken-4");
+    brand.style.fontSize = "1.8rem";
+  }
+});
 },{"./scss/layout/_navigation.scss":"scss\\layout\\_navigation.scss","./scss/layout/_header.scss":"scss\\layout\\_header.scss","./scss/layout/_features.scss":"scss\\layout\\_features.scss","./scss/layout/_about.scss":"scss\\layout\\_about.scss","./scss/layout/_projects.scss":"scss\\layout\\_projects.scss","./scss/layout/_plans.scss":"scss\\layout\\_plans.scss","./scss/layout/_team.scss":"scss\\layout\\_team.scss","./scss/layout/_contact.scss":"scss\\layout\\_contact.scss","./scss/layout/_footer.scss":"scss\\layout\\_footer.scss"}],"..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -258,7 +276,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '59078' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '49711' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
