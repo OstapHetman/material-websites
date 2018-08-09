@@ -247,6 +247,10 @@ window.addEventListener("scroll", function () {
     brand.style.fontSize = "1.8rem";
   }
 });
+
+$(document).ready(function () {
+  $(".sidenav").sidenav();
+});
 },{"./scss/layout/_navigation.scss":"scss\\layout\\_navigation.scss","./scss/layout/_header.scss":"scss\\layout\\_header.scss","./scss/layout/_features.scss":"scss\\layout\\_features.scss","./scss/layout/_about.scss":"scss\\layout\\_about.scss","./scss/layout/_projects.scss":"scss\\layout\\_projects.scss","./scss/layout/_plans.scss":"scss\\layout\\_plans.scss","./scss/layout/_team.scss":"scss\\layout\\_team.scss","./scss/layout/_contact.scss":"scss\\layout\\_contact.scss","./scss/layout/_footer.scss":"scss\\layout\\_footer.scss"}],"..\\..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';

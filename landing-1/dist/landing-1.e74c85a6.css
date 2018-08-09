@@ -41,6 +41,12 @@ header {
         border: 2px #fff solid;
         color: #fff;
         margin-left: 15px; }
+  header .sidenav-trigger {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    color: #fff;
+    font-size: 32px; }
 #features .row {
   display: flex;
   margin-bottom: 0; }

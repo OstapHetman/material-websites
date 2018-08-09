@@ -25,3 +25,7 @@ window.addEventListener("scroll", () => {
     brand.style.fontSize = "1.8rem";
   }
 });
+
+$(document).ready(function() {
+  $(".sidenav").sidenav();
+});

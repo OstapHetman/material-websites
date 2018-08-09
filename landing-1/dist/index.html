@@ -14,12 +14,12 @@
 
 <body>
     <!-- Start Navigation -->
-    <div class="navbar-fixed">
+    <div class="navbar-fixed right hide-on-med-and-down">
         <nav>
             <div class="container">
                 <div class="nav-wrapper">
                     <a href="/index.html" class="brand-logo">Material Landing</a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <ul id="nav-mobile">
                         <li>
                             <a href="/index.html#about">About</a>
                         </li>
@@ -69,6 +69,37 @@
                 </div>
             </div>
         </div>
+        <!-- Start Mobile nav -->
+        <ul id="slide-out" class="sidenav">
+            <li>
+                <a href="/index.html" class="brand-logo">Material Landing</a>
+            </li>
+            <li>
+                <div class="divider"></div>
+            </li>
+            <li>
+                <a href="/index.html#about">About</a>
+            </li>
+            <li>
+                <a href="/index.html#projects">Projects</a>
+            </li>
+            <li>
+                <a href="/index.html#plans">Pricing</a>
+            </li>
+            <li>
+                <a href="/index.html#team">Team</a>
+            </li>
+            <li>
+                <a href="/index.html#contact">Contact</a>
+            </li>
+            <li>
+                <a href="!#" class="blue darken-1 waves-effect waves-light btn">Download</a>
+            </li>
+        </ul>
+        <a href="#" data-target="slide-out" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+        </a>
+        <!-- End Mobile nav -->
     </header>
     <!-- End Header -->
 
@@ -475,6 +506,7 @@
     <!-- End Footer -->
 
     <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="/landing-1.e74c85a6.js"></script>
 </body>
