@@ -19,5 +19,8 @@
   "homepage": "https://github.com/OstapHetman/material-websites#readme",
   "dependencies": {
     "node-sass": "^4.9.2"
+  },
+  "devDependencies": {
+    "cssnano": "^4.0.5"
   }
 }
