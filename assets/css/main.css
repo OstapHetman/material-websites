@@ -75,3 +75,32 @@ footer small {
   color: #fff;
   font-size: 14px;
 }
+
+/* Contact Page */
+.form {
+  padding: 2rem;
+}
+.form h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #689f38;
+  margin: 0;
+}
+.form p {
+  margin-bottom: 0;
+}
+.form .card {
+  margin-top: 2rem;
+}
+.form .card .card-content .card-title {
+  font-weight: 500;
+  font-size: 30px;
+}
+.form .card .card-content p {
+  font-size: 16px;
+  color: #689f38;
+}
+.form .card .card-content .btn {
+  display: block;
+  margin-left: auto;
+}
