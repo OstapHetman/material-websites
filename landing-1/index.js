@@ -29,6 +29,9 @@ window.addEventListener("scroll", () => {
   }
 });
 
+// Init
 $(document).ready(function() {
   $(".sidenav").sidenav();
 });
+
+new WOW().init();
