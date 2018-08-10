@@ -169,7 +169,7 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"assets\\js\\index.js":[function(require,module,exports) {
+},{"./..\\img\\header-bg.jpg":[["header-bg.d9883ae5.jpg","assets\\img\\header-bg.jpg"],"assets\\img\\header-bg.jpg"],"_css_loader":"..\\..\\..\\AppData\\Roaming\\npm\\node_modules\\parcel-bundler\\src\\builtins\\css-loader.js"}],"assets\\js\\index.js":[function(require,module,exports) {
 "use strict";
 
 require("../css/main.css");

@@ -27,3 +27,33 @@ section.logo-layout small {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+
+/* Start Header */
+header {
+  margin-top: 2rem;
+}
+header .card-image {
+  background: url(../img/header-bg.jpg) center/cover;
+  height: 290px;
+}
+header .card-image .card-title {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+/* Start Latest works */
+.latest-works .container {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.latest-works h2 {
+  font-size: 28px;
+  color: #689f38;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+.latest-works .work {
+  margin-top: 35px;
+}
+.latest-works .view-btn {
+  margin-top: 35px;
+}
