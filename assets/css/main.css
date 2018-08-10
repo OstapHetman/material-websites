@@ -54,6 +54,22 @@ header .card-image .card-title {
 .latest-works .work {
   margin-top: 35px;
 }
+
+.latest-works .work .card .card-image img {
+  min-height: 173px;
+}
 .latest-works .view-btn {
-  margin-top: 35px;
+  margin: 35px 0;
+}
+
+/* Start footer */
+footer {
+  padding: 1.5rem 0;
+}
+footer .row {
+  margin-bottom: 0;
+}
+footer small {
+  color: #fff;
+  font-size: 14px;
 }
