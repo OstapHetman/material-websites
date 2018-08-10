@@ -104,3 +104,22 @@ footer small {
   display: block;
   margin-left: auto;
 }
+
+/* About Page */
+.about {
+  padding: 3rem;
+}
+.about .card .card-content {
+  display: flex;
+}
+.about .card .card-content .head-image img {
+  max-width: 200px;
+  height: auto;
+}
+.about .card .card-content .head-text {
+  padding: 1rem;
+}
+.about .card .card-content .head-text h4 {
+  color: #689f38;
+  margin-top: 0;
+}
