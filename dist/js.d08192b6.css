@@ -51,11 +51,13 @@ header .card-image .card-title {
   margin-top: 24px;
   margin-bottom: 0;
 }
-.latest-works .work {
+.latest-works .work,
+.all-works .work {
   margin-top: 35px;
 }
 
-.latest-works .work .card .card-image img {
+.latest-works .work .card .card-image img,
+.all-works .work .card .card-image img {
   min-height: 173px;
 }
 .latest-works .view-btn {
