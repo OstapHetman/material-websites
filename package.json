@@ -4,7 +4,7 @@
   "description": "Materialize Portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/OstapHetman/material-websites/issues"
   },
-  "homepage": "https://github.com/OstapHetman/material-websites#readme"
+  "homepage": "https://github.com/OstapHetman/material-websites#readme",
+  "devDependencies": {
+    "cssnano": "^4.0.5"
+  }
 }
