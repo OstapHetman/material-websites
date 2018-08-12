@@ -29,6 +29,17 @@ section.logo-layout small {
 }
 
 /* Start Header */
+.sidenav-trigger {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 3;
+}
+.sidenav-trigger i {
+  font-size: 32px;
+  color: #c5e1a5;
+}
+
 header {
   margin-top: 2rem;
 }
@@ -122,4 +133,19 @@ footer small {
 .about .card .card-content .head-text h4 {
   color: #689f38;
   margin-top: 0;
+}
+
+@media screen and (max-width: 600px) {
+  header .card-image {
+    max-height: 225px;
+  }
+  section.logo-layout {
+    min-height: 130px;
+  }
+  section.logo-layout img {
+    max-width: 70px;
+  }
+  .card .card-image .card-title {
+    font-size: 22px;
+  }
 }
