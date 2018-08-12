@@ -122,8 +122,10 @@ footer small {
 }
 .about .card .card-content {
   display: flex;
+  flex-wrap: wrap;
 }
 .about .card .card-content .head-image img {
+  width: 100%;
   max-width: 200px;
   height: auto;
 }
@@ -147,5 +149,17 @@ footer small {
   }
   .card .card-image .card-title {
     font-size: 22px;
+  }
+  .about .card .card-content .head-text h4 {
+    font-size: 1.3rem;
+  }
+  .form h2 {
+    font-size: 22px;
+  }
+  .form .card .card-content .card-title {
+    font-size: 22px;
+  }
+  .form .card .card-content p {
+    font-size: 14px;
   }
 }
